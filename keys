@@ -1,0 +1,21 @@
+-- Primary Key
+-- Unique Key
+-- Composite Key (PRIMARY Key with Two Columns)
+-- Auto increment Key
+-- Foreign Key constraint
+
+-- constraint: Basically these are the used to limit the type of data that can go into a table.
+
+-----------------------------
+
+➡️ In time of creation you need the mention the primary key.
+PRIMARY Key can only be used in one time. It can not hold any duplicate and null.
+
+➡️ Unique Key can hold NULL.
+
+Q. Difference b/w PRIMARY & Unique Key
+
+------------------------------
+
+A Foreign Key constraints that used to prevent the action that would destroy the links between two tables
+A FK is a field in one table that refers to the primary key in another table.
