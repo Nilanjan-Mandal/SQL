@@ -1,7 +1,4 @@
 - alias
-
-
-
 select * from customers order by first_name;
 
 select *,(quantity * unit_price) as Total_Price
@@ -15,7 +12,6 @@ select
     points,
     points + 10
 from customers;
-
 
 select
 	first_name,

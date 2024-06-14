@@ -13,7 +13,6 @@ GROUP BY
 select count(stu_location) from students GROUP BY stu_location;
 select stu_location, count(*) from students GROUP BY stu_location;
 
-
 MIN & MAX
 -------------------------------------------------------------------
 select max (column_name) from students;
