@@ -1,20 +1,11 @@
-select course_name from courses where course_id = (
-
-
-
-)
-
 select f_name,l_name,course_name from students join courses
 on students.enrolled_coursed = courses.course_id
-
 
 select *
 from customer AS c
 INNER JOIN payment as p
 on
 c.customer_id=p.customer_id
-
-
 
 
 INNER JOIN

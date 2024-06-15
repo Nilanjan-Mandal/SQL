@@ -1,5 +1,4 @@
 --Please find out from the employees table who is VIP and Non-VIPS
-
 desc employees;
 
 select firstName,email,reportsTo,

@@ -117,3 +117,4 @@ ALTER table employee3 drop primary key;
 ALTER table employee3 add primary key (id);
 ALTER table students modify column stu_company varchar (50) DEFAULT 'JP Morgan',
 ALTER TABLE course RENAME courses;
+ALTER TABLE course MODIFY COURSE_ID INT(5) AUTO_INCREMENT;
