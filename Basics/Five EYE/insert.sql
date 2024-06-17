@@ -71,3 +71,6 @@ INSERT INTO courses (course_name) VALUES
 ("Bigdata"),
 ("Java"),
 ("Python");
+
+
+INSERT INTO example (ID,Name) VALUES (1, "NILANJAN"), (2, "Rahul");
