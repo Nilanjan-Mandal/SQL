@@ -1,0 +1,24 @@
+1. Create a report for all the orders of 1996 and their Customers (152 rows)
+select count(*) as total_count 
+from Orders o 
+inner join Customers c
+on o.CustomerID = c.CustomerID 
+where o.OrderDate LIKE '%1996%'
+
+2. Create a report that shows the number of employees and customers from each city that has employees in it (5 rows)
+
+3. Create a report that shows the number of employees and customers from each city that has customers in it (69 rows)
+
+4. Create a report that shows the number of employees and customers from each city (71 rows)
+
+MySQL does not support FULL JOIN directly. To achieve a full outer join in MySQL, you can use a combination of LEFT JOIN and RIGHT JOIN with a UNION.
+
+SELECT e.*, c.*
+FROM Employees e
+LEFT JOIN Customers c ON e.City = c.City
+
+UNION
+
+SELECT e.*, c.*
+FROM Employees e
+RIGHT JOIN Customers c ON e.City = c.City;
