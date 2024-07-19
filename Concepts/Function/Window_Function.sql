@@ -6,7 +6,8 @@ select * from employee;
 
 -- Using Aggregate function as Window Function
 -- Without window function, SQL will reduce the no of records.
-select dept_name, max(salary) from employee
+
+select dept_name, max(salary) as mx_sal from employee
 group by dept_name;
 
 -- By using MAX as an window function, SQL will not reduce records but the result will be shown corresponding to each record.
