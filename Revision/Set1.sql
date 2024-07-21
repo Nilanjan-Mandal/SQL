@@ -1,0 +1,2 @@
+use Practice;
+show TABLES

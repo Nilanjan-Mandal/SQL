@@ -1,0 +1,8 @@
+name   day      month      year
+a      15      2           2022
+b      25      3           2018
+c      6       12          2023
+d      1       5           2024
+
+
+1. Find the particular Date Range

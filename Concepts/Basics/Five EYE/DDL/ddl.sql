@@ -1,12 +1,10 @@
 drop table employee;
 
-#Create a Database
+-- Create a Database
 create databases trendytech;
 
-#Create a Table
-create table employee
-
-  (
+-- Create a Table
+create table employee (
 name varchar (50),
 age INT,
 salary INT (5)
@@ -82,11 +80,6 @@ create table course
   );
 
 
-
-
-
-
-
 -- Change the Column name, add Column, Remove Column. 
 ALTER TABLE STUDENTS ADD COLUMN checking varchar(100);
 alter table STUDENTS rename column stu_lname to last_name;
@@ -104,7 +97,7 @@ ALTER table employee4 modify column name varchar (90);
 ALTER table employee3 drop primary key;
 ALTER table employee3 add primary key (id);
 ALTER table students modify column stu_company varchar (50) DEFAULT 'JP Morgan',
-ALTER TABLE course RENAME courses;
+
 
 
 -- If we want to change the structure of a table (Metadata) use ALTER.

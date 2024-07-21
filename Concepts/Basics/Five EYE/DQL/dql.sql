@@ -1,4 +1,3 @@
-- alias
 select * from customers order by first_name;
 
 select *,(quantity * unit_price) as Total_Price

@@ -19,8 +19,8 @@ select * from customers where
 select * from customers where phone like '%9';
 select * from customers where phone NOT like '%9';
 
--------------------REGEXP------------------
-THIS IS VERY IMPORTANT TO KNOW. PLEASE GO THROUGH THE LECTURE - 12
+-------------------REGEXP--------------------------------------------
+-- THIS IS VERY IMPORTANT TO KNOW. PLEASE GO THROUGH THE LECTURE - 12
 
 select * from customers where
 		address REGEXP 'TRAIL | MAC | FIELD';
