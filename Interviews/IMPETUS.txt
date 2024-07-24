@@ -1,15 +1,28 @@
-id, name,     address,    date        
-1,  name1,    add1,       12-05-2024
-1,  name1,    add2,       16-05-2024
-1,  name1,    add3,       14-05-2024
-2,  name2,    add1,       17-06-2024
-2,  name2,    add2,       18-07-2024
+Round - 1
 
-
+id,     name,       address,        date        
+1,      name1,      add1,           12-05-2024
+1,      name1,      add2,           16-05-2024
+1,      name1,      add3,           14-05-2024
+2,      name2,      add1,           17-06-2024
+2,      name2,      add2,           18-07-2024
 
 1.  To add a new column salary to this table :
 2.  To rename the table from emp to Employee : 
-3   To get the latest record : 
+3.  To get the latest record : 
 4.  To get the latest record for each id : 
+5.  Run the same code in Spark with scala. 
 
-** Run the same code in Spark. 
+Round - 2
+
+Table A		Table B
+ID			ID
+1			1
+2			2
+3			2
+4			3
+
+
+1. What would be the output of a left,right join
+
+

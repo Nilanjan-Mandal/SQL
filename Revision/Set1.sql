@@ -48,3 +48,37 @@ select * from Employees
 SELECT ID, count(*) as cn
 from Employees GROUP BY ID HAVING cn > 1
 
+
+
+show tables
+
+
+
+
+
+select * from Emp
+
+select e.*, 
+row_number() over (partition BY ID ORDER BY DATE desc) as latest
+from Emp as e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
