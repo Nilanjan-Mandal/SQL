@@ -1,20 +1,20 @@
-show TABLES
--- DDL
+show TABLES;
+
+-- DDL of the problem
 CREATE table Employee_info (
 
     EmpID	            INT,
-    EmpName	          VARCHAR(100),  
-    Age	              INT,
-    Sex	              VARCHAR(20),
+    EmpName	            VARCHAR(100),  
+    Age	                INT,
+    Sex	                VARCHAR(20),
     JobTitle	        VARCHAR(20),
-    Salary	          INT(20),  
-    ManagerID         INT(10)  
+    Salary	            INT(20),  
+    ManagerID           INT(10)  
 
 )
 
-INSERT INTO Employee_info (EmpID,EmpNamE,Age,Sex,JobTitle,Salary,ManagerID) VALUES (1, 'Allen Jack', 50, 'F', 'Manager', 4000, 1);
-
-
+INSERT INTO Employee_info (EmpID,EmpNamE,Age,Sex,JobTitle,Salary,ManagerID) VALUES 
+(1, 'Allen Jack', 50, 'F', 'Manager', 4000, 1);
 
 SELECT ManagerID, ManagerName
 FROM (
@@ -23,3 +23,6 @@ FROM (
        ON E1.ManagerID = E2.EmpID) AS Table1
 GROUP BY ManagerID, ManagerName
 HAVING COUNT(EmpID) >= 7
+
+
+
