@@ -1,4 +1,4 @@
---- Q9: Find difference in average sales --- 
+Q9: Find difference in average sales
 
 drop table Sales_order;
 create table Sales_order

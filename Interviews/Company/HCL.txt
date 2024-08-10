@@ -32,3 +32,9 @@ SELECT * FROM (
     FROM logs
 ) AS subquery
 WHERE STR_TO_DATE(date, '%d-%m-%Y') >= '2018-12-12' AND STR_TO_DATE(date, '%d-%m-%Y') <= '2024-01-01';
+
+Q3. Second Highest salary
+
+SELECT MAX(salary) AS second_highest_salary
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);

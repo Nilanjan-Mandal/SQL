@@ -1,4 +1,4 @@
---- Q3 : Find actual distance --- 
+Q3 : Find actual distance
 
 drop table car_travels;
 create table car_travels

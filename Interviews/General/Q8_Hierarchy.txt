@@ -1,4 +1,4 @@
---- Q8: Find the hierarchy --- 
+Q8: Find the hierarchy
 
 drop TABLE emp_details;
 CREATE TABLE emp_details

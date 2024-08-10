@@ -1,18 +1,18 @@
 1. Explain Order of Execution of SQL query. 
 2. Provide a use case for each of the functions Rank, Dense_Rank & Row_Number
 3. Write a query to find the cumulative sum/Running Total
-4. Find the Most selling product by sales/ highest Salary of employees
+4. Find the Most selling product by sales
 5. Write a query to find the 2nd/nth highest Salary of employees
 6. Difference between union vs union all
-7. Identify if there any duplicates in a table
-8. Scenario based Joins question, understanding of Inner, Left and Outer Joins via simple yet tricky question
-9. LAG, write a query to find all those records where the transaction value is greater then previous transaction value
-10. Rank vs Dense Rank, query to find the 2nd highest Salary of employee
-( Ideal soln should handle ties)
-
+7. SQl Date Functions, Numeric Functions. 
+8. 
+9. write a query to find all those records where the transaction value is greater then previous transaction value
+10. 
 11. Write a query to find the Running Difference (Ideal sol'n using windows function)
 12. Write a query to display year on year/month on month growth
 13. Write a query to find rolling average of daily sign-ups
-14. Write a query to find the running difference using self join (helps in understanding the logical approach, ideally this question is solved via windows function)
+14. Write a query to find the running difference using self join 
 15. Write a query to find the cumulative sum using self join 
-(helps in understanding the logical approach, ideally this question is solved via windows function)
+16. Custom Sortm Keep one counyt is always on top and other in descendig order. 
+17. Full Outer Join vs Union ALL
+18. COUNT (*) , COUNT(1), COUNT(Col_Name) and COUNT(Distinct(Col_Name) in SQL

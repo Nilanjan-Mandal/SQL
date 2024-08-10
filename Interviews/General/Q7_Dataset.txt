@@ -1,4 +1,4 @@
---- Q7 : Derive the output --- 
+Q7 : Derive the output
 
 drop table sales_data;
 create table sales_data

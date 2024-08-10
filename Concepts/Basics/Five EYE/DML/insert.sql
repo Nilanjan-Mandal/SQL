@@ -1,10 +1,4 @@
-INSERT INTO employee (name,age,salary) VALUES
-
-(
-  Raghu
-  32,
-  50000
-);
+INSERT INTO employee (name,age,salary) VALUES ('Raghu', 32, 50000);
 
 ----------------------------------------------------------------------
 

@@ -1,0 +1,16 @@
+Country- 
+India
+Pakistan
+Australia
+England
+West Indies
+South Africa
+
+Q1: Write a program to get all the possibilities for the matches. 
+Q2: Make a custom sort, Keep India in top and rest of the columns are in ascending order. 
+
+Answer : 
+1. SELECT * from country
+2. (select * from country as c1 cross join country as c2 where c1.ID != c2.ID)
+
+Q2: Employee Highest and Lowest Salary

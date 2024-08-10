@@ -1,4 +1,4 @@
---- Q10: Pizza Delivery Status --- 
+Q10: Pizza Delivery Status
 
 drop table cust_orders;
 create table cust_orders

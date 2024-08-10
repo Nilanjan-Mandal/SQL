@@ -1,4 +1,4 @@
-Load table with the data. 
+-- Load table with the data. 
 
 
 LOAD DATA LOCAL INFILE /Users/nilanjan/Google Drive/My Drive/IT/Data Engineering /Bigdata/Spark/DataSets/orders.csv INTO TABLE orders;

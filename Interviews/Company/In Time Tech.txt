@@ -1,0 +1,3 @@
+1. Data Lemur - Tweet Hollowgram
+2. Normalization and De-Normalization
+3. Union-All vs Full Outer JOin difference

@@ -1,4 +1,4 @@
---- Q6 : IPL Matches --- 
+Q6 : IPL Matches
 
 drop table teams;
 create table teams
