@@ -5,9 +5,9 @@
 5. Write a query to find the 2nd/nth highest Salary of employees
 6. Difference between union vs union all
 7. SQl Date Functions, Numeric Functions. 
-8. 
+8. New Table structure from a existing Table
 9. write a query to find all those records where the transaction value is greater then previous transaction value
-10. 
+10. Find the employees, who all are hired in last n day/month/year
 11. Write a query to find the Running Difference (Ideal sol'n using windows function)
 12. Write a query to display year on year/month on month growth
 13. Write a query to find rolling average of daily sign-ups
@@ -16,3 +16,13 @@
 16. Custom Sortm Keep one counyt is always on top and other in descendig order. 
 17. Full Outer Join vs Union ALL
 18. COUNT (*) , COUNT(1), COUNT(Col_Name) and COUNT(Distinct(Col_Name) in SQL
+19. Get the records in different joins. 
+20. Query Optimization and how we can do that, Fine Tune vs Optimize Query. 
+21. Employee, who's salary is same in same department. (https://www.youtube.com/watch?v=TvqKpz9RO-A)
+22. Can we put one more primary key, Foreign Key in a table. Combine Key. 
+23. Joins with three table
+24. What is dual and use of it. 
+25. Having vs Group by
+26. Second max salary without window function
+27. Employee with Missing information (https://www.youtube.com/watch?v=0VxCgRQ957c)
+28. How can we keep one sql column always on top? 
