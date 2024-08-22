@@ -1,5 +1,6 @@
 use Practice;
-show tables
+show tables;
+
 select * from employee;
 
 -- Case Statement
