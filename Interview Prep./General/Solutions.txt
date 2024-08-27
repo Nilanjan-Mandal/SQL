@@ -17,8 +17,7 @@ where ctid in ( select max(ctid)
 -- Solution 3:
 delete from cars
 where model_id in (select model_id
-                  from (select *
-                       , row_number() over(partition by model_name, brand order by model_id) as rn
+                  from (select *, row_number() over(partition by model_name, brand order by model_id) as rn
                        from cars) x
                   where x.rn > 1);
 

@@ -25,5 +25,5 @@
 25. Having vs Group by
 26. Second max salary without window function
 27. Employee with Missing information (https://www.youtube.com/watch?v=0VxCgRQ957c)
-28. How can we keep one sql column always on top? 
+28. How can we keep one sql column always on top? (select * from country order by(case when country_name = IN" then 0 else 1 End ) country_name)
 29. Give the result of Join operations
